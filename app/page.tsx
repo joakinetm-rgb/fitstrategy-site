@@ -1,5 +1,5 @@
 
-import CTA from '@/components/cta-button';
+import CTA from '../components/cta-button';
 
 export default function Home() {
   return (
