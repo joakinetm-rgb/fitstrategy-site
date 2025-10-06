@@ -14,6 +14,33 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "FITSTRATEGY Consulting",
+      "url": "https://fitstrategy.ma",
+      "logo": "https://fitstrategy.ma/logo.png",
+      "sameAs": [
+        "https://www.linkedin.com/company/fitstrategy",
+        "https://www.instagram.com/fitstrategy"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Casablanca",
+        "addressCountry": "MA"
+      },
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "contact@fitstrategy.ma",
+        "telephone": "+212661415015"
+      }]
+    })
+  }}
+/>
       <body>
         <Header />
         <main className="container">{children}</main>
