@@ -4,13 +4,17 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://www.fitstrategy.ma'),
+export const metadata = {
+  metadataBase: new URL('https://fitstrategy.ma'),
   title: 'FITSTRATEGY | Conseil fitness & rentabilité',
-  description: 'Audit FitProfit™, Programme 90 Jours, Formation, Abonnement Club Partner.',
-  openGraph: { title: 'FITSTRATEGY', images: ['/og.jpg'] },
+  description: 'Audit FitProfit™, Programme 90 Jours, Formation, Abonnement.',
+  openGraph: {
+    title: 'FITSTRATEGY',
+    description: 'Conseil fitness & rentabilité',
+    url: 'https://fitstrategy.ma',
+    images: ['/og.jpg']
+  }
 };
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
