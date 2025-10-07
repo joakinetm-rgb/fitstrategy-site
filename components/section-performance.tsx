@@ -4,17 +4,20 @@ import Image from 'next/image';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const data = [
-  { mois: 'Jan', ca: 120 }, { mois: 'Fév', ca: 160 }, { mois: 'Mar', ca: 210 },
-  { mois: 'Avr', ca: 250 }, { mois: 'Mai', ca: 290 }, { mois: 'Juin', ca: 340 }
+  { mois: 'Jan', ca: 120 },
+  { mois: 'Fév', ca: 160 },
+  { mois: 'Mar', ca: 210 },
+  { mois: 'Avr', ca: 250 },
+  { mois: 'Mai', ca: 290 },
+  { mois: 'Juin', ca: 340 }
 ];
 
 export default function SectionPerformance() {
   return (
     <section className="section grid gap-8 md:grid-cols-2 items-center">
-      {/* Visuel (mets ton image dans /public) */}
       <div className="card">
         <Image
-          src="/fit-club.jpg"  /* remplace par ton fichier */
+          src="/fit-club.jpg"   // place ton image dans public/fit-club.jpg
           alt="Performance FITSTRATEGY"
           width={900}
           height={600}
@@ -22,11 +25,10 @@ export default function SectionPerformance() {
           priority
         />
         <p className="mt-3 text-muted text-sm">
-          Étude de cas — +35% de CA en 6 mois après le programme 90 Jours.
+          Étude de cas — +35 % de CA en 6 mois après le programme 90 Jours.
         </p>
       </div>
 
-      {/* Graphique */}
       <div className="card">
         <h2 className="h2 mb-3">Croissance du chiffre d’affaires</h2>
         <div style={{ width: '100%', height: 280 }}>
@@ -40,7 +42,7 @@ export default function SectionPerformance() {
             </LineChart>
           </ResponsiveContainer>
         </div>
-        <p className="mt-3 text-sm text-muted">Source: Dashboard mensuel – échantillon clubs accompagnés.</p>
+        <p className="mt-3 text-sm text-muted">Source : Dashboard mensuel – échantillon clubs accompagnés.</p>
       </div>
     </section>
   );
