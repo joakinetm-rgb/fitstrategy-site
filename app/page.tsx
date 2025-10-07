@@ -15,7 +15,7 @@ export default function Home() {
         {/* Titre principal centré plus haut */}
         <div className="text-center mt-12">
           <h1 className="leading-tight" style={{ fontSize: '58px', fontWeight: 800 }}>
-            <span style={{ color: '#CFAE70' }}>FIT</span>
+            <span style={{ color: '#D4AF37' }}>FIT</span>
             <span>STRATEGY</span>
           </h1>
           <p className="text-zinc-200 mt-3 max-w-xl mx-auto text-lg">
