@@ -1,4 +1,4 @@
-import SectionPerformance from '@/components/section-performance';
+import SectionPerformance from '../components/section-performance';
 
 export default function Results() {
   const cases = [
