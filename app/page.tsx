@@ -71,7 +71,7 @@ export default function Home() {
               <p className="text-muted">Années d’expérience</p>
             </div>
             <div>
-              <p className="text-5xl font-bold" style={{ color: '#CFAE70' }}>+40</p>
+              <p className="text-5xl font-bold" style={{ color: '#CFAE70' }}>+7</p>
               <p className="text-muted">Clubs accompagnés</p>
             </div>
             <div>
