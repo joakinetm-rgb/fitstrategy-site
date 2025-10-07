@@ -1,31 +1,78 @@
-
-import CTA from '../components/cta-button';
-
 export default function Home() {
   return (
-    <>
-        <section
-      className="min-h-screen flex flex-col items-center justify-center text-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/background.jpg')" }}
+    <main
+      className="min-h-screen text-center text-white bg-cover bg-center bg-fixed"
+      style={{ backgroundImage: "url('/background.webp')" }}
     >
-      <div className="bg-black/60 p-10 rounded-2xl">
-        <h1 className="text-5xl font-bold text-gold">FITSTRATEGY</h1>
-        <p className="mt-4 text-white max-w-xl">
-          Accélérez la croissance et la rentabilité de votre business fitness.
-        </p>
-      </div>
-    </section>
-      <section className="section grid gap-6 md:grid-cols-3">
-        <div className="card"><h3 className="h2 mb-2">Audit FitProfit™</h3><p>Diagnostic en 5 jours. Rapport 10 points + plan 30 jours.</p></div>
-        <div className="card"><h3 className="h2 mb-2">Programme 90 Jours</h3><p>Transformation ventes, marketing, management.</p></div>
-        <div className="card"><h3 className="h2 mb-2">Abonnement Club Partner</h3><p>Suivi mensuel, reporting KPI, coaching.</p></div>
-      </section>
+      {/* Overlay noir translucide */}
+      <div className="min-h-screen bg-black/60 backdrop-brightness-75">
 
-      <section className="section grid gap-6 md:grid-cols-3">
-        <div className="card"><p className="text-3xl font-bold">+10 ans</p><p className="text-muted">d’expérience</p></div>
-        <div className="card"><p className="text-3xl font-bold">+7</p><p className="text-muted">clubs accompagnés</p></div>
-        <div className="card"><p className="text-3xl font-bold">+25%</p><p className="text-muted">rentabilité moyenne gagnée</p></div>
-      </section>
-    </>
+        {/* SECTION HERO */}
+        <section className="flex flex-col items-center justify-center min-h-[80vh] px-4">
+          <h1 className="text-6xl font-bold text-gold">FITSTRATEGY</h1>
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed">
+            Accélérez la croissance et la rentabilité de votre business fitness.
+          </p>
+        </section>
+
+        {/* SECTION SERVICES */}
+        <section className="section py-16 px-4">
+          <h2 className="text-4xl font-semibold mb-8 text-gold">Nos Programmes</h2>
+          <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+            <div className="card bg-black/70 p-6 rounded-2xl border border-gold/20">
+              <h3 className="text-2xl font-bold mb-2">FitProfit™</h3>
+              <p>Diagnostic en 5 jours, rapport 10 points + plan 30 jours.</p>
+            </div>
+            <div className="card bg-black/70 p-6 rounded-2xl border border-gold/20">
+              <h3 className="text-2xl font-bold mb-2">Transformation</h3>
+              <p>Ventes, marketing, management, structuration opérationnelle.</p>
+            </div>
+            <div className="card bg-black/70 p-6 rounded-2xl border border-gold/20">
+              <h3 className="text-2xl font-bold mb-2">Club Partner</h3>
+              <p>Suivi mensuel, reporting KPI, formation & coaching.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* SECTION RÉSULTATS */}
+        <section className="section py-16 px-4 bg-black/70">
+          <h2 className="text-4xl font-semibold mb-8 text-gold">Nos Résultats</h2>
+          <div className="grid gap-6 md:grid-cols-3 max-w-5xl mx-auto">
+            <div className="card p-6 rounded-2xl border border-gold/20">
+              <h3 className="text-2xl font-bold">Passage Fitness Rabat</h3>
+              <p className="mt-2">+135 % de CA dès la première année.</p>
+            </div>
+            <div className="card p-6 rounded-2xl border border-gold/20">
+              <h3 className="text-2xl font-bold">Anfa Club Casablanca</h3>
+              <p className="mt-2">+18 % d’adhésions annuelles.</p>
+            </div>
+            <div className="card p-6 rounded-2xl border border-gold/20">
+              <h3 className="text-2xl font-bold">GYM4YOU</h3>
+              <p className="mt-2">Marge nette doublée en 6 mois.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* SECTION CHIFFRES */}
+        <section className="section py-16 px-4">
+          <h2 className="text-4xl font-semibold mb-8 text-gold">Nos Chiffres</h2>
+          <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
+            <div>
+              <p className="text-5xl font-bold text-gold">+10</p>
+              <p className="text-muted">Années d’expérience</p>
+            </div>
+            <div>
+              <p className="text-5xl font-bold text-gold">+7</p>
+              <p className="text-muted">Clubs accompagnés</p>
+            </div>
+            <div>
+              <p className="text-5xl font-bold text-gold">+25%</p>
+              <p className="text-muted">Rentabilité moyenne gagnée</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
   );
 }
