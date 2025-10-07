@@ -1,19 +1,25 @@
 export default function Home() {
   return (
-    <main
-      className="min-h-screen text-center text-white bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: "url('/background.webp')" }}
-    >
-      {/* Overlay noir translucide */}
-      <div className="min-h-screen bg-black/60 backdrop-brightness-75">
+   <section
+  className="relative bg-cover bg-center"
+  style={{ backgroundImage: "url('/background.webp')" }}
+>
+  {/* voile noir plus léger */}
+  <div className="absolute inset-0 bg-black/40" />
 
-        {/* SECTION HERO */}
-        <section className="flex flex-col items-center justify-center min-h-[80vh] px-4">
-          <h1 className="text-6xl font-bold text-gold">FITSTRATEGY</h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed">
-            Accélérez la croissance et la rentabilité de votre business fitness.
-          </p>
-        </section>
+  {/* contenu compact */}
+  <div className="relative container flex flex-col items-center justify-center text-center"
+       style={{ minHeight: '72vh', paddingTop: '2.5rem', paddingBottom: '2.5rem' }}>
+    <h1 className="leading-tight" style={{ fontSize: '56px', fontWeight: 800 }}>
+      <span style={{ color: '#CFAE70' }}>FIT</span>
+      <span>STRATEGY</span>
+    </h1>
+    <p className="text-zinc-300"
+       style={{ marginTop: '10px', maxWidth: 720 }}>
+      Accélérez la croissance et la rentabilité de votre business fitness.
+    </p>
+  </div>
+</section>
 
         {/* SECTION SERVICES */}
         <section className="section py-16 px-4">
