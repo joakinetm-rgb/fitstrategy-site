@@ -15,8 +15,6 @@ export default function Home() {
         </p>
       </div>
     </section>
-  );
-}
       <section className="section grid gap-6 md:grid-cols-3">
         <div className="card"><h3 className="h2 mb-2">Audit FitProfit™</h3><p>Diagnostic en 5 jours. Rapport 10 points + plan 30 jours.</p></div>
         <div className="card"><h3 className="h2 mb-2">Programme 90 Jours</h3><p>Transformation ventes, marketing, management.</p></div>
