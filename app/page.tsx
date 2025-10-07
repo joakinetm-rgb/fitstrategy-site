@@ -14,7 +14,7 @@ export default function Home() {
           style={{ minHeight: '68vh', paddingTop: '2rem', paddingBottom: '2rem' }}
         >
           <h1 className="leading-tight" style={{ fontSize: '56px', fontWeight: 800 }}>
-            <span style={{ color: '#CFAE70' }}>FIT</span>
+            <span style={{ color: '#D4AF37' }}>FIT</span>
             <span>STRATEGY</span>
           </h1>
           <p className="text-zinc-300" style={{ marginTop: 10, maxWidth: 720 }}>
