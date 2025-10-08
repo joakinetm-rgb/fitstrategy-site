@@ -19,7 +19,7 @@ export default function Home() {
             <span>STRATEGY</span>
           </h1>
           <p className="text-zinc-200 mt-3 max-w-xl mx-auto text-lg">
-            Accélérez la croissance et la rentabilité de votre business fitness.
+            Accélérez la croissance et la rentabilité de votre business.
           </p>
           <div className="mt-5">
             <CTA href="/contact">Demander un Audit FitProfit™</CTA>
@@ -49,16 +49,16 @@ export default function Home() {
           <h2 className="text-4xl font-semibold mb-8" style={{ color: '#CFAE70' }}>Résultats & Témoignages</h2>
           <div className="grid gap-6 md:grid-cols-3 max-w-5xl mx-auto">
             <div className="card bg-black/60 p-6 rounded-2xl border border-zinc-800">
-              <h3 className="text-2xl font-bold">Passage Fitness Rabat</h3>
-              <p className="mt-2">+135 % de CA dès la première année.</p>
+              <h3 className="text-2xl font-bold">Passage Fitness</h3>
+              <p className="mt-2">10 année de developpement et de performances.</p>
             </div>
             <div className="card bg-black/60 p-6 rounded-2xl border border-zinc-800">
-              <h3 className="text-2xl font-bold">Anfa Club Casablanca</h3>
-              <p className="mt-2">+18 % d’adhésions annuelles.</p>
+              <h3 className="text-2xl font-bold">PF Clubs Casablanca</h3>
+              <p className="mt-2">+18 % moyenne d’évolution YOY.</p>
             </div>
             <div className="card bg-black/60 p-6 rounded-2xl border border-zinc-800">
-              <h3 className="text-2xl font-bold">GYM4YOU</h3>
-              <p className="mt-2">Marge nette doublée en 6 mois.</p>
+              <h3 className="text-2xl font-bold">OPENNING GYMS</h3>
+              <p className="mt-2">Plans d'ouverture et de developpement 360°.</p>
             </div>
           </div>
         </section>
