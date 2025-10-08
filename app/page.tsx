@@ -7,7 +7,7 @@ export default function Home() {
       style={{ backgroundImage: "url('/background.webp')" }}
     >
       {/* Voile noir très léger */}
-      <div className="absolute inset-0 bg-gold/40" />
+      <div className="absolute inset-0 bg-gold/30" />
 
       {/* Contenu global */}
       <div className="relative z-10 flex flex-col items-center justify-start min-h-screen pt-16 pb-20 px-4">
