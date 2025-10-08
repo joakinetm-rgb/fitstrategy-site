@@ -53,11 +53,11 @@ export default function Home() {
               <p className="mt-2">10 année de developpement et de performances.</p>
             </div>
             <div className="card bg-black/60 p-6 rounded-2xl border border-zinc-800">
-              <h3 className="text-2xl font-bold">PF Clubs Casablanca</h3>
+              <h3 className="text-2xl font-bold">Performance commerciale</h3>
               <p className="mt-2">+18 % moyenne d’évolution YOY.</p>
             </div>
             <div className="card bg-black/60 p-6 rounded-2xl border border-zinc-800">
-              <h3 className="text-2xl font-bold">OPENNING GYMS</h3>
+              <h3 className="text-2xl font-bold">Ouvertures de 7 clubs</h3>
               <p className="mt-2">Plans d'ouverture et de developpement 360°.</p>
             </div>
           </div>
@@ -67,8 +67,8 @@ export default function Home() {
           <h2 className="text-4xl font-semibold mb-8" style={{ color: '#CFAE70' }}>Chiffres clés</h2>
           <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
             <div>
-              <p className="text-5xl font-bold" style={{ color: '#CFAE70' }}>+10</p>
-              <p className="text-muted">Années d’expérience</p>
+              <p className="text-5xl font-bold" style={{ color: '#CFAE70' }}>+100</p>
+              <p className="text-muted">Personnel formé</p>
             </div>
             <div>
               <p className="text-5xl font-bold" style={{ color: '#CFAE70' }}>+7</p>
